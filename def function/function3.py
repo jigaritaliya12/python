@@ -4,4 +4,4 @@ def printline():
     letter="*"
     print(letter*100)
 printline()
-print("italiya jigar 1")
+print("italiya jigar ")
