@@ -5,4 +5,4 @@ mydict ={
 }
 print("optin are ", mydict.keys())
 a=input("enter your hindi word \n")
-print("the meaning of your word is:",mydict[a])
+print("the meaning of your word is:",mydict.get(a))
