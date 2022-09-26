@@ -7,7 +7,7 @@ amount=int(input("enter your amount"))
 rate=int(input("enter your rate"))
 year=int(input("enter your years"))
 
-result=getintrest(amount,rate,year)
+result=getintrest(amount)
 print(f"intrest is {result}")
 
 
