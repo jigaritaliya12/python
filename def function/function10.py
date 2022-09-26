@@ -21,3 +21,5 @@ def getaddition(number):
 number=int(input("enter your number"))
 addition=getaddition(number)
 print("addition",addition)
+
+    
