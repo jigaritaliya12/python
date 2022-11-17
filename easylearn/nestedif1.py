@@ -17,7 +17,7 @@ else:
     else:
         print("num 3 is largest number")
         
-print("good nye....")
+print("good bye....")
     
         
 
