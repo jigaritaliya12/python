@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS practice</title>
+    <style>
+        * /*universal selector*/
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        html
+        {
+            height: 100vh;
+        }
+        body
+        {
+            height: 100%;
+            background-color: aliceblue;
+            background-image: url('img/tree_icon.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+        .box
+        {
+            height: 100px;
+            width: 200px;
+            border: 5px solid rgb(122, 167, 219);
+            position: absolute;
+        }
+        .aqua
+        {
+            background-color: aqua;
+            top: 50px;
+            left: 0px;
+            z-index: 2;
+        }
+        .green
+        {
+            background-color: green;
+            top: 75px;
+            left: 150px;
+            z-index: 1;
+
+        }
+        .brown
+        {
+            background-color: brown;
+            top: 50px;
+            left: 300px;
+            z-index:3;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>hello buddy</h1>
+    <div class="box aqua"></div>
+    <div class="box green"></div>
+    <div class="box brown"></div>
+</body>
+</html>

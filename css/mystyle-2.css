@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Teko&display=swap');
+
+*
+{
+    letter-spacing: 1px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+}
+h2 
+{
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+    color:#EE7171
+}
+#header 
+{
+    background-color: brown;
+    color:white;
+    padding:10px 5px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header>ul 
+{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+#header>ul>li>a:link 
+{
+    text-transform: uppercase;
+}
+#footer 
+{
+    background-color: brown;
+    padding:10px 5px;
+    color: white;
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
+}
+a:visited 
+{
+    color:white;
+}
