@@ -5,8 +5,8 @@ import random as j
 # function for otp generation
 def otpgen():
     otp=""
-    for i in range(4):
-        otp+=str(j.randint(1,9))
+    for i in range(1):
+        otp+=str(j.randint(0,1))
     print ("Your One Time Password is ")
     print (otp)
 otpgen()
