@@ -12,4 +12,3 @@ while exponent != 0:
     result *= base
     exponent-=1
 print(result)
- 
